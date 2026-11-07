@@ -1,13 +1,13 @@
 # cc-plugins
 
-A Claude Code plugin marketplace from ai-advanced-futures. It holds plugins for architecture decisions, domain models, product planning, system design, code review, prompts, agent orchestration, a status bar, and a software factory. It also holds plain skills.
+A Claude Code plugin marketplace from ai-ready-future. It holds plugins for architecture decisions, domain models, product planning, system design, code review, prompts, agent orchestration, a status bar, and a software factory. It also holds plain skills.
 
 This repository is a release. A workflow writes each version from a private development repository. It takes no pull requests. To report a problem, use the private advisory form in [SECURITY.md](SECURITY.md).
 
 ## Add the marketplace
 
 ```bash
-claude plugin marketplace add ai-advanced-futures/cc-plugins
+claude plugin marketplace add ai-ready-future/cc-plugins
 ```
 
 ## Install a plugin
@@ -51,7 +51,7 @@ claude plugin install <name>@cc-plugins
 The `skills/` folder holds plain skills. They are not in a plugin. Install one with `npx skills add`:
 
 ```bash
-npx skills add ai-advanced-futures/cc-plugins --skill <name>
+npx skills add ai-ready-future/cc-plugins --skill <name>
 ```
 
 | Skill | Description |
